@@ -29,7 +29,7 @@ function changeDialValue (index, incrementBy) {
   lockState.wheels[index] = lockState.wheels[index] + incrementBy;
   if (JSON.stringify(Array.from(lockState.wheels)) === JSON.stringify(SECRET_COMBO)) {
     lockState.locked = false;
-    redirect("larry-lobster");
+    redirect("Iris-Kuhn");
   }
 }
 

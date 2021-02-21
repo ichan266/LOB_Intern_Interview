@@ -16,4 +16,4 @@
     // our lock will render itself any time the values of the lock state are changed
     window.renderLock()
   })
-})()
+})
