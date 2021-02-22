@@ -9,6 +9,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   display: flex;
   flex-direction: column;
+  column-width: 100px;
   align-items: center;
   justify-content: center;
   min-height: 50vh;
@@ -16,13 +17,22 @@ body {
   padding: 20px;
 }
 
-p {
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-}
-
 #portrait {
   width: 200px;
   border-radius: 100px;
+}
+
+p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50em;
+  display:flex;
+}
+
+.logo {
+  width: 50px;
+}
+
+.container-footer {
+  text-align: center;
 }
